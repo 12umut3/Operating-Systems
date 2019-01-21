@@ -1,0 +1,16 @@
+
+----------------------PROJECT-1--------------------------
+
+** TO COMPILE phistogram.c AND thistogram.c PLEASE ENTER "make" IN THE TERMINAL
+
+** TO RUN phistogram.c PLEASE ENTER "./phistogram binnumber inputnumber txt1 txt2 .. outputfilename" IN THE TERMINAL
+	
+example: ./phistogram 5 3 in1.txt in2.txt in3.txt outph.txt
+
+** TO RUN thistogram.c PLEASE ENTER "./thistogram binnumber inputnumber txt1 txt2 .. outputfilename" IN THE TERMINAL
+	
+example: ./thistogram 5 3 in1.txt in2.txt in3.txt outth.txt
+
+** IN phistogram.c AND thistogram.c ALL ARRAY SIZE IS 1024. THEREFORE IF YOU RUN WITH MORE THAN 1024 LINES TXT FILE, YOU CAN GET STACK OVER FLOW ERROR OR SEGMENTATION FAULT.
+
+
